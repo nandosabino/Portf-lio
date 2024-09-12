@@ -1,0 +1,213 @@
+section.skills-2{
+    padding: 100px 10%;
+}
+
+.main-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007BFF;
+}
+
+.main-text h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #007BFF;
+    cursor: default;
+}
+
+.main-text span{
+    color: #002D72;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+
+.skill-bar{
+    margin-bottom: 2.3rem;
+}
+
+.skill-main h3{
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-align: center;
+    color: #002D72;
+    letter-spacing: 1px;
+    cursor: default;
+}
+
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .info p{
+    color: #002D72;
+    cursor: default;
+}
+
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: #858585;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #007BFF;
+    border-radius: 25px;
+    
+}
+
+.skill-bar .bar .html-css{
+    width: 88%;
+    animation: html 2s;
+}
+
+.skill-bar .bar .java-script{
+    width: 59%;
+    animation: javascript 3s;
+}
+
+.skill-bar .bar .react{
+    width: 10%;
+    animation: react 4s;
+}
+
+.skill-bar .bar .github{
+    width: 68%;
+    animation: github 5s;
+}
+
+.skill-bar .bar .nodejs{
+    width: 15%;
+    animation: nodejs 6s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 88%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 59%;
+    }
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes github{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 68%;
+    }
+}
+
+@keyframes nodejs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+
+.professional{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    position: relative;
+    margin: 10px 0;
+    flex: 1 1 15rem;
+}
+
+.box .text{
+    text-align: center;
+    color: #002D72;
+    font-size: 1rem;
+    cursor: default;
+}
+
+.box .text big{
+    font: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box .text small{
+    display: block;
+    font-weight: 600;
+}
+
+.circle{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .points{
+    width: 2px;
+    height: 10px;
+    background-color: #858585;
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-45px);
+}
+
+@keyframes glow{
+    0%{
+        background: #858585;
+        box-shadow: none;
+    }
+    100%{
+        background: #007BFF;
+    }
+}
+
+.points.marked{
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}

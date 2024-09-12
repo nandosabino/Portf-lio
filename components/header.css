@@ -1,0 +1,28 @@
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo a{
+    font-size: 2.5rem;
+    color: #007BFF;
+    font-weight: 800;
+    cursor: default;
+}

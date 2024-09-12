@@ -1,0 +1,46 @@
+.container-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.bubbles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #F0F4F8;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #6b6b6b2f, 0 0 50px #6b6b6b2f, 0 0 100px #6b6b6b2f;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(115s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #F0F4F8;
+    box-shadow: 0 0 0 10px #6b6b6b2f, 0 0 50px #6b6b6b2f, 0 0 100px #6b6b6b2f;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}

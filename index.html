@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Sabino</title>
+    <link rel="stylesheet" href="./components/global.css">
+    <link rel="stylesheet" href="./components/background.css">
+    <link rel="stylesheet" href="./components/header.css">
+    <link rel="stylesheet" href="./components/nav.css">
+    <link rel="stylesheet" href="./components/interface.css">
+    <link rel="stylesheet" href="./components/about.css">
+    <link rel="stylesheet" href="./components/skills.css">
+    <link rel="stylesheet" href="./components/projects.css">
+    <link rel="stylesheet" href="./components/graphics.css">
+    <link rel="stylesheet" href="./components/form.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <link rel="stylesheet" href="./components/darkmode.css">
+    <link rel="stylesheet" href="./components/scroll.css">
+    <link rel="stylesheet" href="./components/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:wght@700&family=Nunito:wght@200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ab427eb9bc.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./scroll.js" defer></script>
+    <script src="./menu-mobile.js" defer></script>
+</head>
+<body>
+
+    <div class="container-background">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:27;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:28;"></span>
+        </div>
+    </div>
+
+    <header class="header" id="home">
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <p>Fernando.</p>
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contate-me</a></li>
+                </ul>
+
+                <div class="darkmode-toggle">
+                    <input type="checkbox" class="checkbox" id="check">
+    
+                    <label class="label" for="check">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </nav>
+
+            <div class="menu-toggle mobile-mode">
+                <div class="darkmode-toggle">
+                    <input type="checkbox" class="checkbox" id="check">
+
+                    <label class="label" for="check">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="btn-open-menu" id="btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre Mim</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#contact">Contate-me</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="top-site">
+                <div class="interface">
+                    <div class="flex">
+                        <div class="text-top-site effect-scroll">                        
+                            <h1>Olá, Meu nome é Fernando Sabino<span>.</span></h1>
+                            <div class="text-animated">
+                                E <span></span>
+                            </div>
+                            <p>Cada pixel que codifico é um passo na transformação de ideias em experiências digitais envolventes e funcionais, onde design e tecnologia se encontram para criar algo extraordinário.
+                            </p>
+
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/fernando-sabino-495220305/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://github.com/nandosabino" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.instagram.com/_nandosabino/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div> 
+                            <div class="btn-container">
+                                <button class="btn btn-curriculum" onclick="window.open('./assets')">Download CV</button>
+                                <button class="btn btn-contact">Contate-me!</button>
+                            </div>
+                        </div>
+
+                        <div class="img-top-site effect-scroll-2">
+                            <img src="./images/image.png" alt="my photo">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-me" id="about">
+                <div class="interface">
+                    <div class="flex">
+
+                        <div class="img-about-me effect-img-about">
+                            <img src="./images/teste.jpg" alt="my photo">
+                        </div>
+
+                        <div class="text-about-me effect-text-about">
+                            <h2>UM POUCO SOBRE <span>MIM</span></h2>
+                            <p>Meu nome é Fernando Sabino, tenho 19 anos, sou de Fortaleza, Ceará. A tecnologia sempre foi parte essencial da minha vida desde criança. Ganhei meu primeiro computador aos 6 anos de idade. Daquele momento em diante, minha paixão por tudo relacionado à tecnologia só cresceu. Esse interesse natural me levou a seguir o caminho da programação, onde atualmente estudo.</p>
+                            <p>Cada novo desafio e aprendizado em programação me empolga ainda mais, reforçando a curiosidade que nasceu lá na infância. Meu objetivo é transformar essa paixão em carreira, explorando todas as possibilidades que o mundo da tecnologia tem a oferecer.</p>
+                            <div class="btn-about-me">
+                                <button class="btn-about effect-btn-about">Ler Mais</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <div class="skills-container">
+                    <h2 class="skills-title">Minhas linguagens e ferramentas</h2>
+                    <p class="description">
+                        Como um desenvolvedor apaixonado por tecnologia, estou constantemente explorando e aprimorando minhas habilidades com uma variedade de ferramentas e linguagens. Meu objetivo é criar soluções inovadoras, eficientes e visualmente atraentes. Aqui estão algumas áreas em que trabalho e as principais tecnologias e ferramentas que uso no meu dia a dia:
+                    </p>
+                    <ul>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-1">
+                                <img src="./images/pc image.png" alt="web development">
+                            </div>
+                            <h3 class="effect-skills-1">Web Development</h3>
+                            <p class="effect-skills-1">Tenho experiência em Desenvolvimento Web, incluindo a criação e manutenção de sites e aplicações web completos e funcionais. Minha abordagem para desenvolvimento web envolve: desenvolvimento front-end, desenvolvimento back-end, integração de API e otimização e desempenho.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-2">
+                                <img src="./images/web-design.png" alt="web design">
+                            </div>
+                            <h3 class="effect-skills-2">Web Design</h3>
+                            <p class="effect-skills-2">Tenho uma sólida formação em Web Design, combinando estética e funcionalidade para criar sites que sejam visualmente atraentes e intuitivos de usar. Minha abordagem ao Web Design inclui: design responsivo, criação de interfaces intuitivas, estilo e branding.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-3">
+                                <img src="./images/html-5.png" alt="html 5">
+                            </div>
+                            <h3 class="effect-skills-3">HTML5</h3>
+                            <p class="effect-skills-3">Tenho uma sólida formação em HTML, a linguagem de marcação essencial para a construção de sites. Com meu conhecimento de HTML, sou capaz de criar e estruturar páginas da web de forma eficiente e organizada.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-4">
+                                <img src="./images/css-3.png" alt="css 3">
+                            </div>
+                            <h3 class="effect-skills-4">CSS</h3>
+                            <p class="effect-skills-4">Tenho um forte domínio de CSS, a linguagem essencial para estilizar e melhorar a aparência de sites. Com minhas habilidades em CSS, posso criar designs bonitos e responsivos que garantem uma experiência de usuário consistente e agradável.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-5">
+                                <img src="./images/java-script.png" alt="javascript">
+                            </div>
+                            <h3 class="effect-skills-5">JavaScript</h3>
+                            <p class="effect-skills-5">Tenho conhecimento de JavaScript, a linguagem que adiciona interatividade e dinamismo às páginas da web. Usando JavaScript, posso transformar sites estáticos em experiências interativas e responsivas.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-6">
+                                <img src="./images/react.png" alt="react">
+                            </div>
+                            <h3 class="effect-skills-6">React</h3>
+                            <p class="effect-skills-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident veritatis cupiditate voluptatum quisquam, expedita animi dicta sint ab itaque dolores dolor, porro fuga tempora a dolorem? Doloremque, quisquam tenetur.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-7">
+                                <img src="./images/git.png" alt="git">
+                            </div>
+                            <h3 class="effect-skills-7">Git</h3>
+                            <p class="effect-skills-7">Tenho um sólido entendimento e experiência com Git, um dos sistemas de controle de versão mais amplamente usados ​​em desenvolvimento de software. Eu uso o Git para gerenciar versões de código, colaborar em projetos e manter um histórico detalhado de mudanças.</p>
+                        </li>
+                        <li class="skills-itens">
+                            <div class="img-skills-container effect-skills-8">
+                                <img src="./images/node-js.png" alt="node-js">
+                            </div>
+                            <h3 class="effect-skills-8">Node.js</h3>
+                            <p class="effect-skills-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident veritatis cupiditate voluptatum quisquam, expedita animi dicta sint ab itaque dolores dolor, porro fuga tempora a dolorem? Doloremque, quisquam tenetur.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="skills-2">
+                <div class="main-text">
+                    <span>Técnicas e Profissionais</span>
+                    <h2>Skills</h2>
+                </div>
+            
+                <div class="skill-main">
+                    <div class="skill-left">
+                        <h3>Skills Técnicas</h3>
+            
+                        <div class="skill-bar">
+                            <div class="info">
+                                <p>HTML and CSS</p>
+                                <p>88%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="html-css"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-bar">
+                            <div class="info">
+                                <p>JavaScript</p>
+                                <p>59%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="java-script"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-bar">
+                            <div class="info">
+                                <p>React</p>
+                                <p>10%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-bar">
+                            <div class="info">
+                                <p>GitHub</p>
+                                <p>68%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="github"></span>
+                            </div>
+                        </div>
+            
+                        <div class="skill-bar">
+                            <div class="info">
+                                <p>Node.Js</p>
+                                <p>15%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="nodejs"></span>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="skill-right">
+                        <h3>Skills Profissionais</h3>
+                        <div class="professional">
+                            <div class="box">
+                                <div class="circle" data-dots="80" data-percent="90"></div>
+                                <div class="text">
+                                    <big>90%</big>
+                                    <small>Comunicação</small>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="circle" data-dots="80" data-percent="93"></div>
+                                <div class="text">
+                                    <big>93%</big>
+                                    <small>Trabalho em Equipe</small>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="circle" data-dots="80" data-percent="82"></div>
+                                <div class="text">
+                                    <big>82%</big>
+                                    <small>Criatividade</small>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="circle" data-dots="80" data-percent="79"></div>
+                                <div class="text">
+                                    <big>79%</big>
+                                    <small>Gerenciamento de Projetos</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="wrapper">
+                    <header>
+                        <h2>Meus Projetos</h2>
+                        <p>Alguns dos meus trabalhos recentes</p>
+                    </header>
+
+                    <div class="cards">
+                        <div class="card-1">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="effect-scroll-left" src="./images/Pojeto-1.png" alt="projeto-1">
+                                </a>
+                            </div>
+
+                            <div class="text effect-text-projects-left">
+                                <h3>Private Idiomas</h3>
+                                <p>Educational Website - Responsivo</p>
+                            </div>
+
+                            <div class="technologies effect-technologies-left">
+                                <img src="./images/html-tec.png">
+                                <img src="./images/css-tec.png">
+                                <img src="./images/java-tec.png">
+                                <img src="./images/bootstrap-tec.png">
+                            </div>
+                        </div>
+
+                        <div class="card-1">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="effect-scroll-right" src="./images/Projeto-2.png" alt="projeto-2">
+                                </a>
+                            </div>
+
+                            <div class="text effect-text-projects-right">
+                                <h3>Mario Brothers</h3>
+                                <p>Landing Page - Responsivo</p>
+                            </div>
+
+                            <div class="technologies effect-technologies-right">
+                                <img src="./images/html-tec.png">
+                                <img src="./images/css-tec.png">
+                                <img src="./images/java-tec.png">
+                            </div>
+                        </div>
+
+                        <div class="card-2">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="effect-scroll-left-2" src="./images/Projeto-3.png" alt="projeto-3">
+                                </a>
+                            </div>
+
+                            <div class="text effect-text-projects-left-2">
+                                <h3>Easy Shopping</h3>
+                                <p>Landing Page - Responsivo</p>
+                            </div>
+
+                            <div class="technologies effect-technologies-left-2">
+                                <img src="./images/html-tec.png">
+                                <img src="./images/css-tec.png">
+                                <img src="./images/java-tec.png">
+                            </div>
+                        </div>
+
+                        <div class="card-2">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="effect-scroll-right-2" src="./images/Projeto-4.png" alt="projeto-4">
+                                </a>
+                            </div>
+
+                            <div class="text effect-text-projects-right-2">
+                                <h3>PS5 Store</h3>
+                                <p>Purchase Page - Responsivo</p>
+                            </div>
+
+                            <div class="technologies effect-technologies-right-2">
+                                <img src="./images/html-tec.png">
+                                <img src="./images/css-tec.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form" id="contact">
+                <div class="interface">
+                    <h2 class="title">Fale <span>Comigo!</span></h2>
+
+                    <form action="">
+                        <input type="text" name="" id="" placeholder="Nome Completo:" required>
+                        <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                        <input type="text" name="" id="" placeholder="Seu Telefone:" required>
+                        <textarea name="" id="" placeholder="Sua mensagem aqui:" required></textarea>
+                        <div class="btn-send"><input type="submit" value="ENVIAR"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <p class="logo">Fernando.</p>
+                        </div>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/_nandosabino/" target="_blank"><button><i class="fa-brands fa-instagram" id="instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/nandosabino/" target="_blank"><button><i class="fa-brands fa-linkedin" id="linkedin"></i></button></a>
+                            <a href="https://github.com/nandosabino" target="_blank"><button><i class="fa-brands fa-square-github" id="github"></i></button></a>
+                            <a href="https://wa.me/5585989732377" target="_blank"><button><i class="fa-brands fa-whatsapp" id="whatsapp"></i></button></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="line-footer border">
+                    <p><i class="fa-regular fa-envelope"></i><a href="mailto:sabinofernando05@gmail.com.br">sabinofernando05@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                &#169 2024 Fernando Sabino Todos os Direitos Reservados
+            </div>
+        </footer>
+
+</body>
+<script src="graphic.js"></script>
+<script src="./nav.js"></script>
+<script src="./darkmode.js"></script>
+</html>

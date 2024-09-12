@@ -1,0 +1,115 @@
+.skills{
+    position: relative;
+    scroll-margin-top: 15rem;
+}
+
+.skills .skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 4rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills .skills-container .skills-title{
+    color: #007BFF;
+    font-size: 2.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.skills .skills-container .description{
+    color: #002D72;
+    font-size: 18px;
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+}
+
+.skills .skills-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skills .skills-container ul li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1 1 19rem; 
+    max-width: 22rem; 
+}
+
+.skills .skills-container ul li .img-skills-container{
+    background-color: #eeeeee;
+    padding: 1px;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.skills .skills-container ul li h3{
+    color: #007BFF;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 32px 0 24px;
+}
+
+.skills .skills-container ul li p{
+    color: #002D72;
+}
+
+.skills .skills-container ul li:nth-child(1) .img-skills-container:hover {
+    background-color: #e78812; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(2) .img-skills-container:hover {
+    background-color: #6891e6; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(3) .img-skills-container:hover {
+    background-color: #ff8d63; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(4) .img-skills-container:hover {
+    background-color: #71bbf4; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(5) .img-skills-container:hover {
+    background-color: #bc8c04; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(6) .img-skills-container:hover {
+    background-color: #517eb8; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(7) .img-skills-container:hover {
+    background-color: #a32900; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.skills .skills-container ul li:nth-child(8) .img-skills-container:hover {
+    background-color: #64b74b; 
+    transform: scale(1.2);
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}

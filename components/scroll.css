@@ -1,0 +1,43 @@
+.effect-scroll, .effect-scroll-2, .effect-scroll-3{
+    visibility: hidden;
+}
+
+.effect-img-about, .effect-text-about, .effect-btn-about{
+    visibility: hidden;
+}
+
+.skills-title, .description{
+    visibility: hidden;
+}
+
+.effect-skills-1, .effect-skills-2, .effect-skills-3, .effect-skills-4, .effect-skills-5, .effect-skills-6, .effect-skills-7, .effect-skills-8{
+    visibility: hidden;
+}
+
+.main-text{
+    visibility: hidden;
+}
+
+.skill-left, .skill-right{
+    visibility: hidden;
+}
+
+.wrapper{
+    visibility: hidden;
+}
+
+.effect-scroll-left, .effect-scroll-left-2, .effect-scroll-right, .effect-scroll-right-2{
+    visibility: hidden;
+}
+
+.effect-text-projects-left, .effect-text-projects-left-2, .effect-text-projects-right, .effect-text-projects-right-2{
+    visibility: hidden;
+}
+
+.effect-technologies-left, .effect-technologies-left-2, .effect-technologies-right, .effect-technologies-right-2{
+    visibility: hidden;
+}
+
+.form{
+    visibility: hidden;
+}

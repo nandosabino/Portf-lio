@@ -1,0 +1,73 @@
+section.about-me{
+    position: relative;
+    padding: 40px 4%;
+}
+
+section.about-me .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.img-about-me img{
+    border-radius: 5%;
+}
+
+.about-me .text-about-me{
+    color: #002D72;
+    position: relative;
+    z-index: 10;
+}
+
+.about-me .text-about-me h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.about-me .text-about-me h2 span{
+    color: #007BFF;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.about-me .text-about-me p{
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-me .text-about-me .btn-about-me{
+    width: 380px;
+    height: 50px;
+}
+
+.about-me .text-about-me .btn-about-me button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    background: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-about:hover, .btn-about:focus, .btn-about:active{
+    box-shadow: 0 0 8px #007BFF;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+}
